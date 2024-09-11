@@ -1,6 +1,10 @@
 # COMP6016
 Password Cracker using Dictionary Attack
 
+passcrack_dict.py - Initial version of the Password Cracker at the start of COMP6015.
+Password Cracker Tool.py - Improved version of the passcrack_dict.py, developed during COMP6016.
+main.py, dictscript.py, brutescript.py - Another iteration of Password Cracker which makes use of parallelization, speeding up the cracking process. This is a simple cracker which does not have the additional features of Password Cracker Tool.py, but does the originally intended job. It is primarily used for comparison of cracking speed with and without parallelization.
+
 To use this password cracker, the user will need the following:
 1) A word list (e.g. rockyou.txt)
 2) A hashed password list - It is a list containing passwords that has been hashed using a certain type of algorithm (e.g. SHA256 / MD5). A raw password list containing direct strings or characters of the passwords will not work.
@@ -30,4 +34,5 @@ Use Case - Hash Generator
 2) Select algorithm to be used (SHA256 / MD5)
 3) Click on "Generate Hash"
 4) Hash generated
+
 
