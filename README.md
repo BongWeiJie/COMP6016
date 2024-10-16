@@ -35,4 +35,10 @@ Use Case - Hash Generator
 3) Click on "Generate Hash"
 4) Hash generated
 
+Password Cracker Tool Version 2
 
+main.py - main executing program
+dictscript.py - program responsible for dictionary attacks execution
+brutescript.py - program responsible for brute force attacks execution
+
+This program is implemented with ProcessPoolExecutor (PPE) which allows it to speed up the process of dictionary cracking. However, this effect is nowhere to be seen in brute force cracking. This program is only for comparison purposes and thus is not equipped with many features, except only for its originally intended task.
