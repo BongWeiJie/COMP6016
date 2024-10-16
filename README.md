@@ -41,4 +41,4 @@ main.py - main executing program
 dictscript.py - program responsible for dictionary attacks execution
 brutescript.py - program responsible for brute force attacks execution
 
-This program is implemented with ProcessPoolExecutor (PPE) which allows it to speed up the process of dictionary cracking. However, this effect is nowhere to be seen in brute force cracking. This program is only for comparison purposes and thus is not equipped with many features, except only for its originally intended task.
+This program is implemented with ProcessPoolExecutor (PPE) which allows it to speed up the process of dictionary cracking. However, this effect is nowhere to be seen in brute force cracking. This program is only for comparison purposes and thus is not equipped with many features, except only for its originally intended task. Both versions of the password cracker are able to handle passphrase password cracking as well. A passphrase is a string of 4 or more random words separated by spaces.
