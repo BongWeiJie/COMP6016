@@ -2,6 +2,7 @@
 Password Cracker using Dictionary Attack
 
 passcrack_dict.py - Initial version of the Password Cracker at the start of COMP6015.
+
 Password Cracker Tool.py - Improved version of the passcrack_dict.py, developed during COMP6016.
 main.py, dictscript.py, brutescript.py - Another iteration of Password Cracker which makes use of parallelization, speeding up the cracking process. This is a simple cracker which does not have the additional features of Password Cracker Tool.py, but does the originally intended job. It is primarily used for comparison of cracking speed with and without parallelization.
 
